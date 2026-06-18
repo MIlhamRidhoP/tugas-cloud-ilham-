@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Ilham Ridho Priyadi - Personal Page</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background-color: #f4f6f9;
+        color: #2c2c2c;
+        line-height: 1.6;
+    }
+
+    header {
+        background-color: #b91c1c;
+        color: #ffffff;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2.4em;
+        margin-bottom: 8px;
+    }
+
+    header p {
+        font-size: 1.1em;
+        opacity: 0.9;
+    }
+
+    .container {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    section {
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 30px;
+        margin-bottom: 25px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    section h2 {
+        color: #b91c1c;
+        border-bottom: 2px solid #b91c1c;
+        padding-bottom: 8px;
+        margin-bottom: 16px;
+        font-size: 1.4em;
+    }
+
+    .info-table td {
+        padding: 6px 10px;
+        vertical-align: top;
+    }
+
+    .info-table td:first-child {
+        font-weight: bold;
+        width: 160px;
+        color: #444;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .skill-badge {
+        background-color: #fde8e8;
+        color: #b91c1c;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    .interests ul {
+        padding-left: 20px;
+    }
+
+    .interests li {
+        margin-bottom: 6px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        color: #888;
+        font-size: 0.9em;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Muhammad Ilham Ridho Priyadi</h1>
+    <p>Mahasiswa S1 Teknologi Informasi - Fakultas Informatika, Telkom University</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Tentang Saya</h2>
+        <table class="info-table">
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>Muhammad Ilham Ridho Priyadi</td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>103032300132</td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td>IT-47-02</td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>S1 Teknologi Informasi</td>
+            </tr>
+            <tr>
+                <td>Fakultas</td>
+                <td>Fakultas Informatika, Telkom University</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Keahlian Teknis</h2>
+        <div class="skills">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Flutter</span>
+            <span class="skill-badge">Web Developer</span>
+            <span class="skill-badge">Kali Linux</span>
+            <span class="skill-badge">Cloud Computing</span>
+            <span class="skill-badge">Network Security</span>
+        </div>
+    </section>
+
+    <section class="interests">
+        <h2>Minat dan Fokus Studi</h2>
+        <ul>
+            <li>Cloud Computing dan manajemen infrastruktur server</li>
+            <li>Keamanan jaringan dan penetration testing</li>
+            <li>Mendevelop Fullstack Website</li>
+            <li>Machine Learning dan analisis data</li>
+            <li>Enterprise Architecture</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Tentang Halaman Ini</h2>
+        <p>
+            Halaman web personal ini dibuat sebagai bagian dari Tugas Besar mata kuliah
+            Komputasi Awan, yang di-deploy menggunakan infrastruktur Virtual Machine
+            berbasis cloud (GitHub Codespaces) dengan web server Apache2 dan PHP,
+            serta dilindungi oleh konfigurasi firewall UFW pada port HTTP.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2026 Muhammad Ilham Ridho Priyadi - Tugas Komputasi Awan
+</footer>
+
+</body>
+</html>
